@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HowToPlay">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="2" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="2047"/>
+    </constraints>
+    <properties>
+      <background color="-16777136"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c033c" class="javax.swing.JButton" binding="back">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15710854"/>
+          <font name="Kill Em All" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <hspacer id="bc58">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="e47f">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ca140" class="javax.swing.JTextPane" binding="howToPlayTheTextPane" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777136"/>
+          <editable value="false"/>
+          <focusCycleRoot value="false"/>
+          <focusable value="false"/>
+          <font name="Quicksand Bold" size="18"/>
+          <foreground color="-1"/>
+          <requestFocusEnabled value="false"/>
+          <text value="&#10;&#10;How To Play:&#10;&#10;&#10;The game begins by choosing of a character of different classes. Each character has it's own specialty and skills. Then, the player can now proceed to the battle ground.&#10;&#10;In the battle, the player has 3 hand cards which are specialty cards from the chosen character.&#10;&#10;To start the game, player 1 draws a card from the deck for the attack gauge to be filled with a limit of 12. Both players will take turns filling the gauge by drawing a card. Within this period, the players are able to use any of the hand cards to serve as an advantage to the other player, depending on the effect of the card.&#10;&#10;The filling of the attack gauge must not exceed 12 to avoid overcharging. When overcharging happens, the gauge resets to half and automatically hits stand. In order to avoid overcharging, the player must hit stand, when he feels that the next card that will be drawn will lead to overcharging or if he thinks he is in a safe spot.&#10;&#10;When a player hits stand, the attack gauge stops filling up. When both players have already hit stand, the attack gauges are compared.&#10;&#10;Whoever, has the higher points gets to strike. The number of strikes is depends on the accumulated points of both players, it is determined by subtracting the least number of points from the greater points.&#10;&#10;The game will end once one of the players reaches 0 health points. "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
